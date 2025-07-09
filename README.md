@@ -3,13 +3,13 @@
 
 # 🌧️  Weather App
 
-A **React-based web application** that displays **past 7 days of weather data** for any city in **India**, using a **third-party weather API**. Designed with a clean, responsive UI using **Tailwind CSS**.
+A **React-based web application** that displays **Forecast 7 days of weather data** for any city in **India**, using a **third-party weather API**. Designed with a clean, responsive UI using **Tailwind CSS**.
 
 ---
 
 ## 🔍 Features
 
-* 🕒 View **past 7 days** of weather history
+* 🕒 View **past 7 days** of weather Forecast
 * 🏙️ Search weather by any **Indian city**
 * 🔗 Fetches data from a **third-party weather API**
 * 📱 Responsive design with **Tailwind CSS**
@@ -32,27 +32,18 @@ A **React-based web application** that displays **past 7 days of weather data** 
 weather-app/
 │
 ├── public/
-│   └── index.html
+│   
 │
 ├── src/
 │   ├── assets/                # Images or icons
-│   ├── components/            # Reusable UI components (e.g., Card, SearchBar)
-│   │   ├── WeatherCard.jsx
-│   │   └── SearchBar.jsx
-│   │
-│   ├── pages/                 # Main views/screens
-│   │   └── Home.jsx
-│   │
-│   ├── services/              # API functions and utilities
-│   │   └── weatherService.js
-│   │
-│   ├── utils/                 # Helper functions (e.g., date formatting)
-│   │   └── formatDate.js
+│   ├── components/            # Contain all code of weather web-app
+│   │   ├── Weather.jsx
 │   │
 │   ├── App.jsx                # Root component
 │   ├── index.js               # Entry point
-│   └── index.css              # Tailwind base styles
-│
+│   └── index.css              # Tailwind base styles    
+|       
+│── index.html
 ├── .env                       # API key configuration
 ├── tailwind.config.js         # Tailwind customization
 ├── package.json               # Project metadata and dependencies
@@ -66,13 +57,13 @@ weather-app/
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Anurag20075/Weather-Web.git
    ```
 
 2. **Navigate to the project**
 
    ```bash
-   cd weather-app
+   cd weather-web
    ```
 
 3. **Install dependencies**
